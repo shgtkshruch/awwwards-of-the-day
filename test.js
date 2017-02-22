@@ -22,5 +22,6 @@ describe('awwwards', () => {
     assert.equal(sites[i].index, i);
     assert.equal(typeof sites[i].title, 'string');
     assert.equal(typeof sites[i].img, 'string');
+    assert.equal(typeof sites[i].link, 'string');
   });
 });

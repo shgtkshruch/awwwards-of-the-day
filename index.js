@@ -17,6 +17,7 @@ module.exports = () => {
         item.index = i;
         item.title = $(this).find('.content h3').text();
         item.img = $(this).find('.site img').attr('data-src');
+        item.link = $(this).find('.bt-link').attr('href');
 
         result.push(item);
       });
