@@ -1,7 +1,7 @@
 {
   "name": "awwwards-of-the-day",
   "version": "0.0.1",
-  "description": "",
+  "description": "Get awwwards of the day",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec --timeout 5000"
