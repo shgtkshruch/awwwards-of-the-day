@@ -9,7 +9,6 @@ describe('awwwards', () => {
   before(done => {
     awwwards().then(result => {
       sites = result;
-      console.log(sites);
       done();
     });
   });
