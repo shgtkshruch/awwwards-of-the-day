@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/shgtkshruch/awwwards-of-the-day#readme",
   "dependencies": {
-    "cheerio-httpcli": "^0.6.11"
+    "cheerio-httpcli": "^0.6.11",
+    "chrono-node": "^1.2.5"
   },
   "devDependencies": {
     "mocha": "^3.2.0"

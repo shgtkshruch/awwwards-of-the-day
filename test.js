@@ -9,6 +9,7 @@ describe('awwwards', () => {
   before(done => {
     awwwards().then(result => {
       sites = result;
+      console.log(sites);
       done();
     });
   });
@@ -23,5 +24,6 @@ describe('awwwards', () => {
     assert.equal(typeof sites[i].title, 'string');
     assert.equal(typeof sites[i].img, 'string');
     assert.equal(typeof sites[i].link, 'string');
+    assert.equal(typeof sites[i].date, 'string');
   });
 });
