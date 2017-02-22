@@ -19,7 +19,7 @@ const awwwards = require('awwwrds-of-the-day');
 awwwards().then(sites => {
   console.log(sites);
   /*
-  [ 
+  [
     { index: 0,
       title: 'Beoplay H4 - UNFILTERED',
       img: 'https://assets.awwwards.com/awards/submissions/2017/02/589c419438eed.jpg' },
@@ -34,3 +34,6 @@ awwwards().then(sites => {
    */
 });
 ```
+
+## License
+MIT
