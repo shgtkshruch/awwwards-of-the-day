@@ -5,11 +5,11 @@ describe('awwwards', () => {
   let sites;
 
   before(done => {
-    awwwards(result => {
+    awwwards().then(result => {
       sites = result;
       done();
     });
-  })
+  });
 
   it('get sites', () => {
     assert.equal(sites.length, 24);
