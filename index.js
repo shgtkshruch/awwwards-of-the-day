@@ -1,3 +1,5 @@
+'use strict';
+
 const client = require('cheerio-httpcli');
 const URL = 'https://www.awwwards.com/awards-of-the-day/';
 

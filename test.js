@@ -1,3 +1,5 @@
+'use strict';
+
 const awwwards = require('./');
 const assert = require('assert');
 
