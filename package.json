@@ -1,0 +1,26 @@
+{
+  "name": "awwwards-of-the-day",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shgtkshruch/awwwards-of-the-day.git"
+  },
+  "keywords": [],
+  "author": "shgtkshruch <shgtk.shruch@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shgtkshruch/awwwards-of-the-day/issues"
+  },
+  "homepage": "https://github.com/shgtkshruch/awwwards-of-the-day#readme",
+  "dependencies": {
+    "cheerio-httpcli": "^0.6.11"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
