@@ -1,5 +1,6 @@
 # awwwards-of-the-day
 
+[![npm version](https://badge.fury.io/js/awwwards-of-the-day.svg)](https://badge.fury.io/js/awwwards-of-the-day)
 [![Build Status](https://travis-ci.org/shgtkshruch/awwwards-of-the-day.svg?branch=master)](https://travis-ci.org/shgtkshruch/awwwards-of-the-day)
 
 Get awwards of the day
